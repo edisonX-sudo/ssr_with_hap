@@ -33,7 +33,7 @@ const subSsrFilterWordsInnArr = subSsrFilterWords.split(",");
             return true;
         })
         .forEach((i) => {
-            console.log(i)
+            console.log(i.remarks,i.server,i.port)
         })
 
 })()
