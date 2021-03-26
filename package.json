@@ -1,0 +1,18 @@
+{
+  "name": "ssr_with_hap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "haproxy": "^0.3.0",
+    "js-base64": "^3.6.0",
+    "ssr-uri-help": "^1.0.1"
+  }
+}
