@@ -1,7 +1,3 @@
-//https://www.npmjs.com/package/haproxy
-//https://www.npmjs.com/package/axios
-//https://www.npmjs.com/package/ssr-uri-help?activeTab=readme
-
 const ssrUriHelp = require('ssr-uri-help');
 const path = require('path')
 const fs = require('fs');
