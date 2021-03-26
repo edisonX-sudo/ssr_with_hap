@@ -12,7 +12,7 @@ let subSsrUrlInEnv = process.env["SUB_SSR_URL"];
 let subSsrFilterWordsInEnv = process.env["SUB_SSR_FILTER_WORDS"];
 let configPathInEnv = process.env["SUB_SSR_CONFIG_PATH"];
 
-const subscribeSsrUrl = subSsrUrlInEnv ? subSsrUrlInEnv : "https://adamz.digital/link/UOSzIIg9ckFX4JMT?sub=1&mark=1";
+const subscribeSsrUrl = subSsrUrlInEnv ? subSsrUrlInEnv : "noop";
 const subSsrFilterWords = subSsrFilterWordsInEnv ? subSsrFilterWordsInEnv : "过期时间,剩余流量,QQ群,官网,网站新域名,http,回墙";
 const subSsrFilterWordsInnArr = subSsrFilterWords.split(",");
 const configPath = configPathInEnv ? configPathInEnv : path.resolve("./res/haproxy.cfg");
