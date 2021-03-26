@@ -3,9 +3,9 @@
 //https://www.npmjs.com/package/axios
 //https://www.npmjs.com/package/ssr-uri-help?activeTab=readme
 
-let axios = require("axios").default;
 const ssrUriHelp = require('ssr-uri-help');
-var HAProxy = require('haproxy');
+let axios = require("axios").default;
+let HAProxy = require('haproxy');
 
 let subSsrUrlInEnv = process.env["SUB_SSR_URL"];
 let subSsrFilterWordsInEnv = process.env["SUB_SSR_FILTER_WORDS"];
