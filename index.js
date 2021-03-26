@@ -34,6 +34,7 @@ const subSsrFilterWordsInnArr = subSsrFilterWords.split(",");
         })
         .forEach((i) => {
             console.log(i.remarks,i.server,i.port)
+            console.log(i)
         })
 
 })()
