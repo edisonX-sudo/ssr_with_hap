@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "haproxy": "^0.3.0",
+    "haproxy-config": "^1.1.1",
     "js-base64": "^3.6.0",
     "ssr-uri-help": "^1.0.1"
   }
